@@ -88,8 +88,27 @@ body {
   }
 }
 
-@media(max-width: 500px) {
-  .page h1 {
-  font-size: 3rem;
-  }
+
+/* Responsivness */
+
+ /* Smartphones */
+ @media only screen and (max-width: 500px) {
+         
+.page h1 {
+    font-size: 3.5rem;
+    line-height: 1;
 }
+
+.page p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+} 
+
+.page {
+    padding: 0 2rem;
+}
+  }
